@@ -1,4 +1,4 @@
-# THE WILD OASIS <img src='/public/logo-light.png' width='50' align='right'/>
+# THE WILD OASIS <img src='/public/logo-dark.png' width='50' align='right'/>
 
 ## 💬 About this project:
 
