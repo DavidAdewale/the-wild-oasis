@@ -60,9 +60,11 @@
 - Form management - React Hook Form
 <details>
   <summary>**Other tools:**</summary>
-- React icons
-- React hot toast (for notifications)
-- Recharts (for displaying beautiful charts)
-- date-fns (for date modification)
-- Supabase (for remote state storage and api build)
+  <ul>
+<li> React icons </li>
+<li> React hot toast (for notifications) </li>
+<li> Recharts (for displaying beautiful charts) </li>
+<li> date-fns (for date modification) </li>
+<li> Supabase (for remote state storage and api build) </li>
+</ul>
 </details>
