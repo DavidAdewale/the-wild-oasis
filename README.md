@@ -59,7 +59,7 @@
 - UI State Management - Context API
 - Form management - React Hook Form
 <details>
-  <summary>**Other tools:**</summary>
+  <summary><strong>Other tools:</strong></summary>
   <ul>
 <li> React icons </li>
 <li> React hot toast (for notifications) </li>
