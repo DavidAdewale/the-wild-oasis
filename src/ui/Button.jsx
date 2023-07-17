@@ -45,6 +45,9 @@ const variations = {
     &:hover {
       background-color: var(--color-red-800);
     }
+    &:focus {
+      outline: none;
+    }
   `,
 };
 
