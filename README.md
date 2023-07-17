@@ -1,6 +1,6 @@
-## THE WILD OASIS 🏨
+# THE WILD OASIS 🏨
 
-# About this project:
+## About this project:
 
 - 'The Wild Oasis' is a small boutique hotel with 8 luxurious wooden cabins.
 - They need a custom built application to manage everything about the hotel: bookings, cabins and guests.
@@ -8,7 +8,7 @@
 - They have nothing right now, so they also need the API
 - Later they will probably want a customer-facing website as well, where customers will be able to book stays using the same API
 
-# Business Requirements and Features:
+## Business Requirements and Features:
 
 - Users of the app are hotel employees. They need to be logged into the application to perform tasks.
 - New users can only be signed up inside the applications (to gurantee that only actual hotel employees can get accounts)
@@ -28,7 +28,7 @@
 - Users should be able to define a few application-wide settings: breakfast price, min and max nights/booking, max guests/booking
 - App needs a dark mode
 
-# App Features:
+## App Features:
 
 - Authentication
 - Cabins
@@ -38,7 +38,7 @@
 - Dashboard (to show statistics and charts)
 - Settings
 
-# Pages:
+## Pages:
 
 - Dashboard (/dashboard)
 - Bookings (/bookings)
@@ -49,7 +49,7 @@
 - Login (/login)
 - Account settings (/account)
 
-# Technology Stack:
+## Technology Stack:
 
 **Client Side Rendering with React**
 
@@ -58,9 +58,11 @@
 - Remote State Management - React Query
 - UI State Management - Context API
 - Form management - React Hook Form
-  **Other tools:**
+<details>
+  <summary>**Other tools:**</summary>
 - React icons
 - React hot toast (for notifications)
 - Recharts (for displaying beautiful charts)
 - date-fns (for date modification)
 - Supabase (for remote state storage and api build)
+</details>
