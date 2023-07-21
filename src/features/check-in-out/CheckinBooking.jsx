@@ -31,10 +31,7 @@ function CheckinBooking() {
   const { booking, isLoading } = useBooking();
   const moveBack = useMoveBack();
   const { checkin, isCheckingIn } = useCheckin();
-  const {
-    isLoading: isLoadingSettings,
-    settings: { breakfastPrice },
-  } = useSettings();
+  const { isLoading: isLoadingSettings, settings } = useSettings();
 
   // const booking = {};
 
@@ -55,7 +52,8 @@ function CheckinBooking() {
     numNights,
   } = booking;
 
-  const optionalBreakfastPrice = breakfastPrice * numGuests * numNights;
+  const optionalBreakfastPrice =
+    settings.breakfastPrice * numGuests * numNights;
   function handleCheckin() {
     if (!confirmPaid) return;
     if (addBreakfast) {
@@ -111,7 +109,6 @@ function CheckinBooking() {
               )})`}
         </Checkbox>
       </Box>
-
       <ButtonGroup>
         <Button onClick={handleCheckin} disabled={!confirmPaid || isCheckingIn}>
           Check in booking #{bookingId}
